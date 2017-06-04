@@ -21,16 +21,95 @@
     </div>
 
     <div class="main-join">
+
         <div class="calendar-head">
             <h2>Join Film Club</h2>
         </div>
 
-        <div class="joinform">
-            <div class="profilepic">
-                <img src="/Users/jpubana/Documents/The Iron Yard/Week2/week-two-project/images/images/profile-placeholder.png" alt="profile-ph">
-            </div>
+        <div class="fillout">
+            <div id="form_container">
+                <form id="formfill" class="joinit" enctype="multipart/form-data" method="post" action="">
+                    <ul>
+                        <li id="li_1">
+                            <label class="description" for="element_1">profile picture</label>
+                            <div>
+                                <input id="element_1" name="element_1" class="element file" type="profilepic" />
+                            </div>
+                        </li>
+                        <br>
+                        <div class="profilepic">
+                            <img src="/Users/jpubana/Documents/The Iron Yard/Week2/week-two-project/images/images/profile-placeholder.png" alt="profile-ph">
+                        </div>
+                        <br>
+                        <li id="li_2">
+                            <label class="description" for="element_2">name </label>
+                            <div>
+                                <input id="element_2" name="element_2" class="element text large" type="name" maxlength="255" value="" />
+                            </div>
+                        </li>
 
-            <div class="fillout">
+                        <li id="li_3">
+                            <label class="description" for="element_3">email address </label>
+                            <div>
+                                <input id="element_3" name="element_3" class="element text large" type="email" maxlength="255" value="" />
+                            </div>
+                        </li>
+
+                        <li id="li_4">
+                            <label class="description" for="element_4">password </label>
+                            <div>
+                                <input id="element_4" name="element_4" class="element text large" type="password" maxlength="255" value="" />
+                            </div>
+                        </li>
+
+                        <li id="li_5">
+                            <label class="description" for="element_5">confirm password </label>
+                            <div>
+                                <input id="element_5" name="element_5" class="element text large" type="password" maxlength="255" value="" />
+                            </div>
+                        </li>
+
+                        <li id="li_7">
+                            <label class="description" for="element_7">Which genres are you interested in? </label>
+                            <span>
+			                        <input id="element_7_1" name="element_7_1" class="element checkbox" type="checkbox" value="1" />
+                                    <label class="choice" for="element_7_1">action</label>
+                                    <input id="element_7_2" name="element_7_2" class="element checkbox" type="checkbox" value="1" />
+                                    <label class="choice" for="element_7_2">adventure</label>
+                                    <input id="element_7_3" name="element_7_3" class="element checkbox" type="checkbox" value="1" />
+                                    <label class="choice" for="element_7_3">comedy</label>
+                                    <input id="element_7_4" name="element_7_4" class="element checkbox" type="checkbox" value="1" />
+                                    <label class="choice" for="element_7_4">drama</label>
+                                    <input id="element_7_5" name="element_7_5" class="element checkbox" type="checkbox" value="1" />
+                                    <label class="choice" for="element_7_5">fantasy</label>
+                                    <input id="element_7_6" name="element_7_6" class="element checkbox" type="checkbox" value="1" />
+                                    <label class="choice" for="element_7_6">historical</label>
+                                    <input id="element_7_7" name="element_7_7" class="element checkbox" type="checkbox" value="1" />
+                                    <label class="choice" for="element_7_7">horror</label>
+                                    <input id="element_7_8" name="element_7_8" class="element checkbox" type="checkbox" value="1" />
+                                    <label class="choice" for="element_7_8">mystery</label>
+                                    <input id="element_7_9" name="element_7_9" class="element checkbox" type="checkbox" value="1" />
+                                    <label class="choice" for="element_7_9">romance</label>
+                                    <input id="element_7_10" name="element_7_10" class="element checkbox" type="checkbox" value="1" />
+                                    <label class="choice" for="element_7_10">science fiction</label>
+                                    <input id="element_7_11" name="element_7_11" class="element checkbox" type="checkbox" value="1" />
+                                    <label class="choice" for="element_7_11">western</label>
+	                        	</span>
+                        </li>
+
+                        <li id="li_6">
+                            <label class="description" for="element_6">Additional input </label>
+                            <div>
+                                <textarea id="element_6" name="element_6" class="element textarea medium"></textarea>
+                            </div>
+                        </li>
+
+                        <li class="buttons">
+                            <input type="hidden" name="form_id" value="35209" />
+                            <input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+                        </li>
+                    </ul>
+                </form>
 
             </div>
         </div>
@@ -42,6 +121,7 @@
                 <a href="/Users/jpubana/Documents/The Iron Yard/Week2/week-two-project/join/index.html">Join</a>
             </div>
         </div>
+
     </div>
 </body>
 
