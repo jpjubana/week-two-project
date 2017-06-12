@@ -1,0 +1,311 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    font-size: 100%;
+    background: transparent;
+    box-sizing: content-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+/*==========MOBILE===========*/
+
+@media (max-width: 544px) {
+    .nav-bar {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+    }
+    .logo {
+        max-width: 130px;
+        max-height: 130px;
+        background-color: #F5005B;
+    }
+    #logo {
+        margin: 12%;
+        max-width: 75%;
+        max-height: 135px;
+    }
+    .nav-menu {
+        width: 75vw;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-menu a {
+        color: white;
+        text-decoration: none;
+    }
+    .home {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 33.33%;
+        background-color: #00A5BF;
+    }
+    #home {
+        margin-left: 45%;
+        position: absolute;
+        top: 10px;
+    }
+    .calendar {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 33.33%;
+        background-color: #00B7D3;
+    }
+    #calendar {
+        margin-left: 42%;
+        position: absolute;
+        top: 10px;
+    }
+    .join {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 33.33%;
+        background-color: #00D5E7;
+    }
+    #join {
+        margin-left: 47%;
+        position: absolute;
+        top: 10px;
+    }
+    .gettinginvolved {
+        padding: 20px;
+    }
+    .gettinginvolved h1 {
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .gettinginvolved h2 {
+        font-size: 20px;
+        font-weight: 100;
+        padding: 10px 20px;
+        color: white;
+        background-color: #0B1942;
+    }
+    .gettinginvolved p {
+        font-weight: 100;
+        padding: 10px;
+    }
+    .upnext {
+        padding: 20px;
+        background-color: #0B1942;
+    }
+    .upnext h1 {
+        font-size: 25px;
+        font-weight: 100;
+        color: white;
+    }
+    #rashomon {
+        display: flex;
+        flex-direction: row;
+        background-color: #E2E2E2;
+    }
+    .rasho-img {
+        flex: 1;
+        margin: 15px;
+    }
+    #rashomon img {
+        max-height: 100%;
+        max-width: 100%;
+    }
+    .dcpoints {
+        text-align: left;
+        margin: 20px;
+        flex: 1;
+    }
+    .dcpoints li {
+        margin-left: 20px;
+    }
+    #rashomontitle {
+        font-size: 20px;
+    }
+    .featurefilms {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-between;
+        height: 550px;
+        padding: 20px;
+        background-color: #E2E2E2;
+    }
+    .fcfilms {
+        flex: 1;
+        width: 46%;
+        max-height: 250px;
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+    .fcfilms img {
+        max-width: 100%;
+        max-height: 210px;
+    }
+    .fcfilms:first-child {
+        order: 1;
+    }
+    .fcfilms:nth-child(2) {
+        order: 3;
+    }
+    .fcfilms:nth-last-child(2) {
+        order: 2;
+    }
+    .fcfilms:last-child {
+        order: 4;
+    }
+    .main-calendar {
+        background-color: #0B1942;
+    }
+    .calendar-head {
+        position: relative;
+        background-color: white;
+        height: 80px;
+    }
+    .calendar-head h2 {
+        position: absolute;
+        top: 25px;
+        margin-left: 20px;
+        font-size: 25px;
+        font-weight: 100;
+    }
+    .calendarcontainer {
+        width: 100vw;
+        height: 70vh;
+    }
+    .calendartable {
+        width: 100vw;
+        height: 50vh;
+    }
+    .calendar-month {
+        color: white;
+        font-size: 25px;
+        margin-left: 20px;
+        padding: 20px 0px;
+    }
+    .calendar-month h2 {
+        font-weight: 100;
+    }
+    .main-calendar tr td {
+        color: white;
+        background-color: white;
+        border: 1px solid #0B1942;
+        vertical-align: text-top;
+    }
+    .main-calendar td span {
+        padding: 4px;
+        background-color: #0B1942;
+    }
+    .calendarcontaner tr {
+        height: 55px;
+    }
+    .calendarcontainer>table>tbody>tr:nth-child(2)>td:nth-child(6) {
+        background-color: #F5005B;
+    }
+    .calendarcontainer>table>tbody>tr:nth-child(4)>td:nth-child(6) {
+        background-color: #F5005B;
+    }
+    .join-head {
+        position: relative;
+        background-color: white;
+        height: 80px;
+    }
+    .join-head h2 {
+        position: absolute;
+        top: 25px;
+        margin-left: 20px;
+        font-size: 25px;
+        font-weight: 100;
+    }
+    .fillout {
+        height: 300vh;
+        width: 100vw;
+    }
+    .form_container {
+        width: 100%;
+    }
+    #form-fill {
+        padding: 20px;
+    }
+    .profilepic {
+        width: 340px;
+        height: 340px;
+        overflow: hidden;
+        border-radius: 50%;
+        /*margin: 0px 30px;*/
+    }
+    .profilepic img {
+        display: inline;
+        margin: 0 auto;
+        height: 100%;
+        width: auto;
+    }
+    #formfill ul {
+        list-style-type: none;
+        padding: 20px;
+    }
+    .footer {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+    }
+    .footnav-menu {
+        width: 100vw;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+    }
+    .footnav-menu a {
+        color: white;
+        text-decoration: none;
+    }
+    .foot-home {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 33.33%;
+        background-color: #00A5BF;
+    }
+    #foot-home {
+        margin-left: 45%;
+        position: absolute;
+        top: 10px;
+    }
+    .foot-calendar {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 33.33%;
+        background-color: #00B7D3;
+    }
+    #foot-calendar {
+        margin-left: 42%;
+        position: absolute;
+        top: 10px;
+    }
+    .foot-join {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 33.33%;
+        background-color: #00D5E7;
+    }
+    #foot-join {
+        margin-left: 47%;
+        position: absolute;
+        top: 10px;
+    }
+    footer {
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        width: 100%;
+        height: 43.33px;
+        background-color: #7DDFE8;
+    }
+}
+
+
+/*==========TABLET===========*/
