@@ -309,3 +309,68 @@
 
 
 /*==========TABLET===========*/
+
+@media (min-width: 545px) and (max-width: 768px) {
+    .nav-bar {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        background-color: #7DDFE8
+    }
+    .logo {
+        max-width: 130px;
+        max-height: 130px;
+        background-color: #F5005B;
+    }
+    #logo {
+        margin: 12%;
+        max-width: 75%;
+        max-height: 135px;
+    }
+    .nav-menu {
+        width: 75vw;
+        height: 130px;
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-menu a {
+        color: white;
+        text-decoration: none;
+    }
+    .home {
+        position: relative;
+        display: block;
+        width: 30%;
+        height: 100%;
+        background-color: #00A5BF;
+    }
+    #home {
+        margin-left: 32.5%;
+        position: absolute;
+        top: 55px;
+    }
+    .calendar {
+        position: relative;
+        display: block;
+        width: 30%;
+        height: 100%;
+        background-color: #00B7D3;
+    }
+    #calendar {
+        margin-left: 32.5%;
+        position: absolute;
+        top: 55px;
+    }
+    .join {
+        position: relative;
+        display: block;
+        width: 30%;
+        height: 100%;
+        background-color: #00D5E7;
+    }
+    #join {
+        margin-left: 47%;
+        position: absolute;
+        top: 55px;
+    }
+}
